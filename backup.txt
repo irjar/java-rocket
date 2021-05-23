@@ -1,0 +1,18 @@
+Triangle c = new Triangle();
+
+Triangle f1 = new Triangle();
+
+Triangle f2 = new Triangle();
+
+Square s1 = new Square();
+
+Square s2 = new Square();
+
+Square s3 = new Square();
+
+Circle j1 = new Circle();
+
+Circle j2 = new Circle();
+
+Rocket r = new Rocket(c, s1, s2, s3, f1, f2, j1, j2);
+r.launch();
